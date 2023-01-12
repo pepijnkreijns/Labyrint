@@ -146,7 +146,7 @@ table {
 }
 
 body {
-    font-family: Skia;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .header-balk {
@@ -201,17 +201,16 @@ footer {
     background-color: #322248;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
     button {
-        float: right;
         height: 35px;
         width: 100px;
-        border-radius: 23px;
-        border: none;
-        background-color: white;
         font-size: 15px;
+    }
+    main {
+        width: 70%;
     }
 }
